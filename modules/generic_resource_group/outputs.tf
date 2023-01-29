@@ -9,4 +9,5 @@ output "resource_groups" {
 
 output "subscription_id" {
   value = data.azurerm_subscription.current.subscription_id
+  description = "Subscription Id for the current session"
 }
